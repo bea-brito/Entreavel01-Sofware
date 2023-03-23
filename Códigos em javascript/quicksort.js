@@ -15,6 +15,7 @@ for (let i = 0; i < List.length - 1; i++) {
    }
    else {
        rightList.push(List[i])
+       
    }
 }
 

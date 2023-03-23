@@ -11,6 +11,7 @@ for(let j=0; j<valor.length;j++){
         intcont = intcont + 1;
     }else{
         cont = cont + 1;
+    
     }
 }
 

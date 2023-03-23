@@ -12,3 +12,4 @@ function MDC(a,b){
   
   
   console.log(MDC(16,36));
+  
