@@ -14,7 +14,5 @@ for(let j=0; j<valor.length;j++){
     
     }
 }
-
-
 console.log("Numeros que são inteiros são: " + intcont);
 console.log("Numeros que não são inteiros são: " + cont);
