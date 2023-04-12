@@ -9,7 +9,6 @@ function MDC(a,b){
     
     
   }
-  
-  
+  console.log("MDC: ");
   console.log(MDC(16,36));
   

@@ -1,5 +1,5 @@
 const values = [2, 27, 14, 52, 31, 96, 73, 47, 22, 6];
-console.log("Array anterior ao quicksort: [ "+values+ " ] <br>");
+console.log("Array anterior ao quicksort: [ "+values+ " ]");
 function QuickSort(List) {
 if (List.length <= 1) {
    return List;
@@ -21,5 +21,5 @@ for (let i = 0; i < List.length - 1; i++) {
 
 return [...QuickSort(leftList), pivot, ...QuickSort(rightList)];
 }
-console.log("Array após o quicksort: [")
-console.log(QuickSort(values)+" ]");
+console.log("Array após o quicksort: ")
+console.log(QuickSort(values));

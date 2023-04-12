@@ -1,9 +1,10 @@
-var numbers = [2,61,8,121];
+var numeros = [2,1,10,4];
 
-var sum = 0;
+var soma = 0;
 
-for(var i =0;i<numbers.length;i++){
-   sum+=numbers[i];
+for(var i =0;i<numeros.length;i++){
+   soma+=numeros[i];
 }
 
-console.log(sum);
+console.log("A soma dos numeros sugeridos na lista [ " + numeros[0] +","+ numeros[1] +","+ numeros[2]+","+ numeros[3]+ " ]")
+console.log(soma);
