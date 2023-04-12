@@ -1,9 +1,16 @@
-function primeNumber(num) {
-    for (var divisor = 2; divisor < num; divisor++) 
-    if (num % divisor == 0) return false;
-    return true;
-}
+function numeroPrimo(numero) {
+    let primo = true;
+    for(let contador = 2; contador < numero; contador++) {
+      if(numero % contador === 0) {
+        primo = false;
+        break;
+      }
+    }
+    if(primo == true) {
+     console.log(`O valor ${numero} é primo!`);
+    } else {
+      console.log(`O valor ${numero} não é primo!`);
+    }
+   }
 
-var numero = 31;
-
-for (var i = 2; i < numero+1; i++) if (primeNumber(i)) console.log(i);
+let c = numeroPrimo(4);
