@@ -1,14 +1,14 @@
 import java.util.Scanner;
 public class Contagem {
-  public static void main(String[] args) {
+    public void contagem() {
     Scanner scanner = new Scanner(System.in);
-
+  
     int primeiroValor;
     int n;
-
+  
     System.out.print("Digite o primeiro valor: ");
     primeiroValor = scanner.nextInt();
-
+  
     System.out.print("Digite o valor do último número: ");
     n = scanner.nextInt();
     scanner.close();
@@ -21,5 +21,7 @@ public class Contagem {
       
       System.out.println("Existem " + contador + " valores inteiros entre " + primeiroValor + " e " + n + ".");
     }
-  }
+      
+    }
+
 

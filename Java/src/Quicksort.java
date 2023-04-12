@@ -1,5 +1,6 @@
 public class Quicksort {
-  public static void main(String[] args) {
+  
+    public void quicksort() {
     int vetor[] = {1,33,22,56,9,2,17};
     int aux =0;
     for(int a = 0; a< vetor.length; a++ ) {
@@ -14,5 +15,5 @@ public class Quicksort {
     for(int i=0;i<vetor.length;i++) {
       System.out.println(vetor[i]);
     }
+    }
 	}
-}

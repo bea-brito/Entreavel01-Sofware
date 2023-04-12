@@ -2,9 +2,7 @@ import java.util.Scanner;
 
 public class Somatorio {
 	
-	public static void main(String[] args) 
-	{
-		
+		public void somatorio() {
 		Scanner num = new Scanner (System.in);
 		int num1;
 		int num2;
@@ -21,6 +19,6 @@ public class Somatorio {
 		System.out.print("A soma dos valores informados eh igual a: " + soma);
 
     num.close();
+		}
 	} 
 
-}
